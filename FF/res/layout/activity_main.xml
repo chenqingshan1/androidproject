@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.ff.MainActivity" >
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello_陈庆山" />
+
+    
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="loginButton" />
+    
+    <CheckBox
+        android:id="@+id/Readingcheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="读书" />
+    <CheckBox
+        android:id="@+id/watchingcheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="看报" />
+    
+    <CheckBox
+        android:id="@+id/allcheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="全选" />
+    
+    
+    <RadioGroup
+        android:id="@+id/RadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    	<RadioButton
+    	    android:id="@+id/femal"
+    	    android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" 
+        	 android:text="文学"   	    
+    	    />
+    	<RadioButton
+    	    android:id="@+id/male"
+    	    android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" 
+        	android:text="文霞"     	    
+    	    />
+    
+    
+    </RadioGroup>
+    
+</LinearLayout>
